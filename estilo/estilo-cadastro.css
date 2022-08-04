@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+}
+body{
+    background-image:url(..//img/fundo4.jpg) ;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+   
+}
+
+textarea:focus, input:focus{
+    outline: none;
+
+}
+
+a{
+    font-size: .10rem;
+}
+a:hover{
+    color: #08558b;
+}
+
+#container-cadastro{
+    background-image: url(..//img/fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding-left: 15px;
+    border-radius: 10px;
+
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+::placeholder{
+    font-size: .8rem;
+}
+
+.genero{
+  
+   margin-right: 5px;
+   margin-left: 40px;
+   padding-left: 5px;
+}
+
+
+
+label{
+    display: block;
+    font-weight: bold;
+    font-size: .9rem;
+    margin-left: 10px;
+}
+
+input{
+    text-align:justify;
+    border-bottom: 2px solid #1b223c;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+}
+input:hover{
+    background-color: #c6e1f5;
+    transition: 1s;
+    border-radius: 10px;
+    border-bottom: 2px solid #023558;
+}
+
+
+input[type="submit"]{
+    border: none;
+    width: 55%;
+    color: #fff;
+    background-color: #2989ce;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 70px;
+}
+input[type="submit"]:hover{
+    background-color: #1b223c;
+        transition: 1s;
+    }
+
+  h1{
+      color: #1b223c;
+      margin-left: 90px;
+      padding-top: 25px;
+      font-weight: bold;
+  }
+
+  

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./estilo/estilo-cadastro.css">
+    
+</head>
+<body>
+    
+        <div id="container-cadastro">
+            <h1>Cadastre-se</h1>
+
+            <form>                                      <!--CONTAINER FORMULARIO-->
+
+               <label for="">Nome</label>
+              <input type="text" name="nome" id="nome" placeholder="Digite seu Nome:">
+
+               <label for="">Sobrenome</label>
+               <input type="text" name="nome" id="nome" placeholder="Digite seu Sobrenome:">
+
+               <label for="telefone">Telefone</label>
+               <input type="tel" name="telefone"  placeholder="Ex: ( 99 ) 9-9999 9999">
+
+               <label for="email">E-mail</label>
+               <input type="email" name="email" id="email" placeholder="Digite seu e-mail:">
+
+               <label for="senha">Senha</label>
+               <input type="password" name="password" id="password" placeholder="Crie uma senha:">
+               <label for="senha">Confirme a senha</label>
+               <input type="password" name="password" id="password" placeholder="Confirme a senha:">
+
+               <label for="">Data de nascimento</label>
+               <input type="date" name="nascimento" value="data">
+
+                <hr>
+
+            <div >                                         <!--CONTAINER ENDEREÇO-->
+                <label for="cep">Cep</label>
+                <input type="text" name="cep" id="cep" placeholder="Ex: 000-0000">
+
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco" placeholder="Digite o nome da rua:">
+
+                <label for="numero">Número</label>
+                <input type="numero" name="numero" placeholder="Digite o número da casa:">
+             </div>                                       <!--FIM CONTAINER ENDEREÇO-->
+
+            </form>                                       <!--FIM CONTAINER FORMULARIO-->
+
+            <input type="submit" value="Cadastrar">
+                 
+        </div>
+
+
+
+
+</body>
+</html>
